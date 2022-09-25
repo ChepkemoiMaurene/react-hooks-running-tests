@@ -1,11 +1,15 @@
 import React from "react";
+import App from "./App";
+import { ReactDOM } from "react-dom";
 
 function Article() {
   return (
     <div>
-      {/* please pass this test */}
+    <App/>
     </div>
   );
 }
 
 export default Article;
+
+// ReactDOM.render(<App />, Document.getElementbyId('root'))
